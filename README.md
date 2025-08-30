@@ -1,5 +1,5 @@
 # Iterable-email-dev
-Hey there 👋
+Hey, I am glad you made it here.
 
 This repository is where I keep the work I’ve done building emails inside Iterable.
 It’s a mix of code, snippets, and real-life use cases—because email isn’t just about making something pretty, it’s about making it work for the customer and the brand.
