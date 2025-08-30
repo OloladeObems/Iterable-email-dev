@@ -37,21 +37,16 @@ This single template dynamically renders:
 
 ===============================================================
 
-&nbsp; TEMPLATE: Preventive Health Checkup Campaign
+TEMPLATE: Preventive Health Checkup Campaign
 
-&nbsp; PURPOSE:  Advanced personalization for health plan members 
+PURPOSE:  Advanced personalisation for health plan members based on plan type, claims history, demographics,engagement score, and location.
 
-&nbsp;           based on plan type, claims history, demographics, 
-
-&nbsp;           engagement score, and location.
-
-&nbsp; OUTPUT:   Dynamically renders header, body, CTA, and footer 
-
-&nbsp;           specific to each recipient in a single template.
+OUTPUT:   Dynamically renders header, body, CTA, and footer specific to each recipient in a single template.
 
 ===============================================================
 
 --}}
+
 
 
 
@@ -67,7 +62,7 @@ This single template dynamically renders:
 
 {{#if (gt age 45)}}
 
-&nbsp; <p>As you’re over 45, your plan covers a <strong>free heart screening test</strong>. Don’t miss this important check.</p>
+ <p>As you’re over 45, your plan covers a <strong>free heart screening test</strong>. Don’t miss this important check.</p>
 
 {{/if}}
 
@@ -77,7 +72,7 @@ This single template dynamically renders:
 
 {{#if (and (eq plan\_type "Retail") (gt (diff (now) last\_claim\_date "months") 12))}}
 
-&nbsp; <p>Don’t leave your benefits unused – book your <strong>free annual checkup</strong> today.</p>
+ <p>Don’t leave your benefits unused – book your <strong>free annual checkup</strong> today.</p>
 
 {{/if}}
 
@@ -87,7 +82,7 @@ This single template dynamically renders:
 
 {{#if (and (eq plan\_type "Corporate") spouse\_enrolled)}}
 
-&nbsp; <p>Your plan also covers <strong>family screening packages</strong>. Take care of your loved ones, too.</p>
+<p>Your plan also covers <strong>family screening packages</strong>. Take care of your loved ones, too.</p>
 
 {{/if}}
 
@@ -97,15 +92,15 @@ This single template dynamically renders:
 
 {{#if (lt engagement\_score 30)}}
 
-&nbsp; <p>Take charge of your health today.</p>
+ <p>Take charge of your health today.</p>
 
-&nbsp; <a href="{{call\_to\_action\_url}}" class="btn">Book Your Checkup</a>
+ <a href="{{call\_to\_action\_url}}" class="btn">Book Your Checkup</a>
 
 {{else}}
 
-&nbsp; <p>Explore the full range of screenings your plan covers. Choose what works best for you.</p>
+<p>Explore the full range of screenings your plan covers. Choose what works best for you.</p>
 
-&nbsp; <a href="{{call\_to\_action\_url}}" class="btn">See My Benefits</a>
+ <a href="{{call\_to\_action\_url}}" class="btn">See My Benefits</a>
 
 {{/if}}
 
@@ -117,7 +112,7 @@ This single template dynamically renders:
 
 {{#eq location "Nigeria"}}
 
-&nbsp; <p><strong>Our Partner Hospitals in Nigeria:</strong> Lagos General, Abuja Clinic, Ibadan MedCare.</p>
+ <p><strong>Our Partner Hospitals in Nigeria:</strong> Lagos General, Abuja Clinic, Ibadan MedCare.</p>
 
 {{/eq}}
 
@@ -125,7 +120,7 @@ This single template dynamically renders:
 
 {{#eq location "UAE"}}
 
-&nbsp; <p><strong>Teleconsultation Options in UAE:</strong> Book a virtual session with our certified doctors.</p>
+<p><strong>Teleconsultation Options in UAE:</strong> Book a virtual session with our certified doctors.</p>
 
 {{/eq}}
 
@@ -133,11 +128,12 @@ This single template dynamically renders:
 
 {{#eq location "Egypt"}}
 
-&nbsp; <p><strong>Partner Hospitals in Egypt:</strong> Cairo MedCenter, Alexandria Health.</p>
+ <p><strong>Partner Hospitals in Egypt:</strong> Cairo MedCenter, Alexandria Health.</p>
 
-&nbsp; <p><strong>Teleconsultation Options:</strong> Access remote specialists anytime.</p>
+<p><strong>Teleconsultation Options:</strong> Access remote specialists anytime.</p>
 
 {{/eq}}
+
 
 
 
