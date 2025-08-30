@@ -1,4 +1,4 @@
-Purpose:
+Purpose: Personalization for a meal plan adjustments & reorder campaign.
 
 
 
@@ -106,6 +106,7 @@ Single template dynamically renders:
 <!-- Dynamic Image: Breed-specific -->
 
 <img src="{{breed\_image\_url}}" alt="{{pet\_breed}}" style="max-width:100%; height:auto;">
+
 
 
 
