@@ -1,12 +1,10 @@
-**Preventive Health Checkup Campaign – Dynamic Personalization Template**
+**Scenario: Preventive Health Checkup Campaign – Dynamic Personalization Template**
 
 
 
 **Purpose:**
 
 Advanced personalization for health plan members based on:
-
-
 
 1. Plan type (Corporate, Retail, Family, Premium)
 2. Claims history (dental, maternity, lab tests, last claim date)
@@ -133,6 +131,7 @@ OUTPUT:   Dynamically renders header, body, CTA, and footer specific to each rec
 <p><strong>Teleconsultation Options:</strong> Access remote specialists anytime.</p>
 
 {{/eq}}
+
 
 
 
