@@ -47,7 +47,7 @@ Single template dynamically renders:
 
 
 
-<p>Hey {{pet\_name}}’s human 👋, we’ve cooked up something new for {{pet\_name}}.</h1>
+<p> Dear Pawrent, we’ve cooked up something new for {{pet\_name}}.</h1>
 
 
 
@@ -106,6 +106,7 @@ Single template dynamically renders:
 <!-- Dynamic Image: Breed-specific -->
 
 <img src="{{breed\_image\_url}}" alt="{{pet\_breed}}" style="max-width:100%; height:auto;">
+
 
 
 
