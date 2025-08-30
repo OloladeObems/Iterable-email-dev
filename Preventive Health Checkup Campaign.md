@@ -52,7 +52,7 @@ OUTPUT:   Dynamically renders header, body, CTA, and footer specific to each rec
 
 <!-- Header -->
 
-<h1>Hi {{first\_name}}, it’s time to put your {{plan\_type}} benefits to work.</h1>
+<h4>Hi {{first_name}}, it’s time to put your {{plan\_type}} benefits to work.</h1>
 
 
 
@@ -133,6 +133,7 @@ OUTPUT:   Dynamically renders header, body, CTA, and footer specific to each rec
 <p><strong>Teleconsultation Options:</strong> Access remote specialists anytime.</p>
 
 {{/eq}}
+
 
 
 
