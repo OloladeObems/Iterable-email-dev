@@ -1,5 +1,6 @@
-Purpose: Personalization for a meal plan adjustments & reorder campaign.
+Scenario: Meal Plan Adjustments & Reorder Campaign – Dynamic Personalization Template
 
+Purpose: Personalization for a meal plan adjustments & reorder campaign.
 
 
 **Advanced personalization for pet meal plan subscribers based on:**
@@ -106,6 +107,7 @@ Single template dynamically renders:
 <!-- Dynamic Image: Breed-specific -->
 
 <img src="{{breed\_image\_url}}" alt="{{pet\_breed}}" style="max-width:100%; height:auto;">
+
 
 
 
